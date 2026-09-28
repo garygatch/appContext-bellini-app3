@@ -1,0 +1,25 @@
+/* Square container with red curved border */
+.box {
+  /* Set fixed dimensions to create a square shape */
+  width: 100px;
+  height: 100px;
+  
+  /* Add red border with 2px width */
+  border: 2px solid red;
+  
+  /* Apply curved corners to the border */
+  border-radius: 10px;
+}
+
+/* Square container with red curved border for users section */
+.box.users {
+  /* Set fixed dimensions to create a square shape */
+  width: 100px;
+  height: 100px;
+  
+  /* Add red border with 2px width */
+  border: 2px solid red;
+  
+  /* Apply curved corners to the border */
+  border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "pets",
+  "type": "open-api",
+  "spec": null,
+  "url": "https://petstore.swagger.io/v2/swagger.json",
+  "auth": {
+    "type": "apiKey",
+    "securityDefinitionName": "api_key",
+    "in": "header",
+    "key": "api_key",
+    "value": "aa"
+  },
+  "server": {
+    "type": "2.0",
+    "scheme": "https"
+  }
+}

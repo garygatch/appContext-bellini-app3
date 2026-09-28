@@ -1,0 +1,45 @@
+{
+  "type": "custom-component",
+  "name": "c1",
+  "children": [],
+  "variables": [],
+  "bindings": [],
+  "modules": [],
+  "styles": [],
+  "directories": {
+    "assets": [
+      {
+        "id": "w_bR4a32wtc9rUAlXnM5m",
+        "name": "aa"
+      },
+      {
+        "id": "IZI47CKHe5Md-QfBCCMMx",
+        "name": "a",
+        "parentDirectoryId": "w_bR4a32wtc9rUAlXnM5m"
+      }
+    ],
+    "components": [],
+    "scripts": [],
+    "stylesheets": [
+      {
+        "id": "yKaZkATClfhwTwb-KeGTt",
+        "name": "dir"
+      }
+    ]
+  },
+  "parentDirectoryId": "6LMT7vV9qdwwWogdVXA_z",
+  "externalStylesheets": [
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap-grid.min.css"
+    }
+  ],
+  "localStylesheets": [
+    {
+      "path": "dir/c1.css",
+      "parentDirectoryId": "yKaZkATClfhwTwb-KeGTt"
+    },
+    {
+      "path": "c2.css"
+    }
+  ]
+}

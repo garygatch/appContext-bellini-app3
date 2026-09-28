@@ -1,0 +1,31 @@
+{
+  "type": "custom-component",
+  "name": "cc",
+  "children": [],
+  "variables": [],
+  "bindings": [],
+  "modules": [],
+  "styles": [],
+  "directories": {
+    "assets": [
+      {
+        "id": "kNUvr1hqzeaF8w8QMdVQw",
+        "name": "a"
+      }
+    ],
+    "components": [],
+    "scripts": [],
+    "stylesheets": [
+      {
+        "id": "MQQ3GUUh--pFeojvYNy8N",
+        "name": "dir"
+      }
+    ]
+  },
+  "externalStylesheets": [
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap-grid.min.css",
+      "parentDirectoryId": "MQQ3GUUh--pFeojvYNy8N"
+    }
+  ]
+}

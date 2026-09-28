@@ -1,0 +1,9 @@
+{
+  "type": "app-service",
+  "name": "eer1",
+  "description": "",
+  "singleton": true,
+  "variables": [],
+  "visible": [],
+  "parentDirectoryId": "heEDt-FU-lnLQbEsU9eoI"
+}

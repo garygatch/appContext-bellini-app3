@@ -1,0 +1,112 @@
+{
+  "name": "appContext",
+  "type": "app",
+  "defaultPage": "home",
+  "config": {
+    "config": {
+      "parameters": [],
+      "script": ""
+    },
+    "modules": [],
+    "properties": {
+      "version": "1.0.0-SNAPSHOT"
+    },
+    "environments": [],
+    "themes": [],
+    "auth": {
+      "enabled": false,
+      "mockedUserAccounts": []
+    }
+  },
+  "directories": {
+    "assets": [
+      {
+        "id": "OwjhDUMNYvelBQNJ1wUck",
+        "name": "jpg"
+      }
+    ],
+    "components": [
+      {
+        "id": "6LMT7vV9qdwwWogdVXA_z",
+        "name": "general"
+      }
+    ],
+    "pages": [
+      {
+        "id": "OXaNEVr2tOT9_Fq6rD5-m",
+        "name": "ff"
+      }
+    ],
+    "scripts": [
+      {
+        "id": "crZQjC5N0iBs11t7QMB0a",
+        "name": "test"
+      }
+    ],
+    "services": [
+      {
+        "id": "heEDt-FU-lnLQbEsU9eoI",
+        "name": "dir1"
+      }
+    ],
+    "stylesheets": [
+      {
+        "id": "tnBsiSf27Ks7aHCvQmCrd",
+        "name": "dir1"
+      },
+      {
+        "id": "EuR91OXoW6gj2qmMqN5OF",
+        "name": "css1"
+      }
+    ]
+  },
+  "externalStylesheets": [
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap-grid.min.css",
+      "parentDirectoryId": "EuR91OXoW6gj2qmMqN5OF"
+    }
+  ],
+  "externalScripts": [
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js",
+      "properties": {
+        "type": "default",
+        "executionMode": "default",
+        "crossorigin": "anonymous",
+        "referrerpolicy": "default"
+      }
+    }
+  ],
+  "localStylesheets": [
+    {
+      "path": "dir1/index.css",
+      "parentDirectoryId": "tnBsiSf27Ks7aHCvQmCrd"
+    },
+    {
+      "path": "css1/test.css",
+      "parentDirectoryId": "EuR91OXoW6gj2qmMqN5OF"
+    },
+    {
+      "path": "dir1/app.css",
+      "parentDirectoryId": "tnBsiSf27Ks7aHCvQmCrd",
+      "order": 2
+    },
+    {
+      "path": "css1/users.css",
+      "parentDirectoryId": "EuR91OXoW6gj2qmMqN5OF"
+    }
+  ],
+  "localScripts": [
+    {
+      "path": "test/foobar.js",
+      "parentDirectoryId": "crZQjC5N0iBs11t7QMB0a"
+    },
+    {
+      "path": "index.js",
+      "order": 1
+    }
+  ]
+}
